@@ -1,0 +1,19 @@
+522FinalCode -  This is the Arduino code that will run for the device as a whole.
+
+Bill of Materials - Our list of parts that we ordered and their price
+
+FakeDatasetTest -  A test with a fabricated dataset to validate the sensors individual ability to detect spikes in data.
+
+HeartRateCode - Initial test code for the ppg
+
+Project Diagrams - Schematics, circuit diagrams and sensor layout diagrams
+
+Subject1data - Data from the DREAMT data set with Heartrates, temperature and sleep stages of real sleep lab patients
+
+Subject2data - Data for the second subject
+
+TempSensorCode - Initial test code for the thermistor
+
+Testing - A publishing of the matlab code used to run the subject data through our algorithm. It is the same as the Arduino code but instead of live sensor readings, it uses the subject data.
+
+VibMotorCode - Initial Testing for the vibration motor
