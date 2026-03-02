@@ -1,2 +1,9 @@
 This is an ongoing project in which I am constructing and programming a surgical robot to play the game operation.
 The design utilizes both an arduino and rasperry pi in conjuction to identify objects and remove them.
+
+The folder currently holds the code that allows the robot to move to a specific coordinate in the X,Y plane as well as the circuit
+diagram and proposed control algorithm. 
+
+The folder is missing the computer vision half of the program currently
+
+Updated 3-2-26
