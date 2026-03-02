@@ -16,7 +16,7 @@ int status = false;
 #define IN2 4
 #define con A0
 
-int bend1;
+int bend1;  //unused
 int pos;
 int targetpos;
 int reading;
@@ -98,3 +98,4 @@ void drive(){
     digitalWrite(IN2,LOW);
   }
 }
+
