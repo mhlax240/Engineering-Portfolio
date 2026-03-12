@@ -77,7 +77,7 @@ void standby(){
 }
 
 
-void adjustservos() {
+void adjustservos() {    //based off position move
   while (basepos != basetarget || pos2 != target2 || pos3 != target3) {
     // base
     if (basepos < basetarget) {
@@ -115,7 +115,7 @@ void pan(){
   delay(3000);
 }
 
-void calcangles() {
+void calcangles() {     // use inverse kinematics equations to calculate desired positions
   // link lengths
   const float h  = 21.5;   // shoulder height above table
   const float l2 = 19.5;
@@ -161,3 +161,4 @@ void calcangles() {
 //  //targety =
 //  //put them into list
 //}
+
